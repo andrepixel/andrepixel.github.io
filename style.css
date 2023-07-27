@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(https://wallpapercave.com/wp/QObu2Xd.jpg) no-repeat top
+    center/cover;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: white;
+  background-color: transparent;
+  width: 50%;
+  margin: auto;
+  padding-top: 56px;
+  box-sizing: border-box;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 10em;
+  border-radius: 50%;
+}
+
+#profile span {
+  font-weight: 500;
+  text-shadow: 0 0 5px black;
+  font-size: 1em;
+  padding-top: 8px;
+}
+
+#links {
+  padding-top: 20px;
+}
+
+#links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#links a {
+  padding: 16px 24px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 0.5em;
+  backdrop-filter: blur(4px);
+  transition: background 500ms;
+  text-decoration: none;
+}
+
+#links a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid rgba(252, 250, 250, 1);
+  text-decoration: none;
+}
+
+#links a li {
+  color: white;
+  font-weight: 500;
+}
+
+#socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin: auto;
+  padding-top: 1em;
+}
+
+#socialMedia a ion-icon {
+  width: 2em;
+  height: 2em;
+  color: white;
+}
