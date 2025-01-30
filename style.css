@@ -1,19 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-html {
-  background: url(https://wallpapercave.com/wp/QObu2Xd.jpg) no-repeat top
-    center/cover;
+  box-sizing: border-box;
 }
 
 body {
   font-family: "Inter", sans-serif;
   color: white;
-  background-color: transparent;
-  width: 50%;
-  margin: auto;
-  padding-top: 56px;
-  box-sizing: border-box;
 }
+
