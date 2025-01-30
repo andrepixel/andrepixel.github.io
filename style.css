@@ -8,6 +8,7 @@ body {
   font-family: "Inter", sans-serif;
   color: white;
   background-color: #181818;
+  margin: 0 5.2rem;
 }
 
 header {
@@ -35,7 +36,7 @@ nav a {
 }
 
 .logo {
-  margin-right: 20rem;
+  margin-right: 15rem;
 }
 
 .social-media {
@@ -65,4 +66,59 @@ nav a {
 nav a h5:hover {
   font-size: 1rem;
   font-weight: bold;
+}
+
+.banner-youtube {
+  height: 20rem;
+  width: auto;
+  margin-top: 20px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  background: linear-gradient(#75D1F6, #FCC6DE, #FCE3AB);
+  align-items: center;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.photo {
+  max-height: 100%;
+}
+
+.text-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: black;
+}
+
+.text-banner .chamada-youtube {
+  font-size: 1.3rem;
+}
+
+.text-banner a {
+  text-decoration: none;
+  width: 14rem;
+  border: 1px solid black;
+}
+
+.text-banner a section {
+  background-color: black;
+  height: 4rem;
+  width: 14rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.text-banner a section p {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.text-banner a img {
+  height: 4rem;
 }
