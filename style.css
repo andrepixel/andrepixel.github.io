@@ -202,3 +202,34 @@ nav a h5:hover {
   font-weight: bold;
   font-size: 1.2rem;
 }
+
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  padding-left: 5%;
+  gap: 1rem;
+  padding: auto;
+}
+
+.content-title-technologies {
+  height: 4rem;
+  width: 13rem;
+  background: linear-gradient(to right, #FCC6DE, #FCE3AB);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  border-radius: 20px;
+}
+
+.content-title-image-technologies {
+  height: 3rem;
+}
+
+.content-title-text-technologies {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

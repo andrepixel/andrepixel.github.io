@@ -46,5 +46,36 @@ async function getJsonMyValues() {
   return container;
 }
 
+async function getTemplateTechnologies() {
+  const response = await fetch("technologies.html");
+  const technologies = await response.text();
+  const div = document.createElement("div");
+
+  div.innerHTML = technologies;
+
+  return div.querySelector("#container-technologies");
+}
+
+async function getJsonTechnologies() {
+  const template = await getTemplateTechnologies();
+  const response = await fetch("technologies.json");
+  const technologies = await response.json();
+  const container = document.getElementById("technologies");
+
+  technologies["items"].forEach((element) => {
+    let component = template.content.cloneNode(true);
+
+    component.querySelector(".content-title-image-technologies").src =
+      element.image;
+    component.querySelector(".content-title-text-technologies").innerHTML =
+      element.title;
+
+    container.appendChild(component);
+  });
+
+  return container;
+}
+
 updateComponentDivHeader();
 getJsonMyValues();
+getJsonTechnologies();

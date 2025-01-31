@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "image": "assets/images/java.png",
+      "title": "Java"
+    },
+    {
+      "image": "assets/images/spring.png",
+      "title": "Spring"
+    },
+    {
+      "image": "assets/images/angular.png",
+      "title": "Angular"
+    },
+    {
+      "image": "assets/images/git.png",
+      "title": "Git"
+    },
+    {
+      "image": "assets/images/postgresql.png",
+      "title": "Postgresql"
+    },
+    {
+      "image": "assets/images/mongodb.png",
+      "title": "Mongo"
+    },
+    {
+      "image": "assets/images/aws.png",
+      "title": "AWS"
+    },
+    {
+      "image": "assets/images/docker.png",
+      "title": "Docker"
+    },
+    {
+      "image": "assets/images/flutter.png",
+      "title": "Flutter"
+    },
+    {
+      "image": "assets/images/golang.png",
+      "title": "Golang"
+    },
+    {
+      "image": "assets/images/linux.png",
+      "title": "Linux"
+    },
+    {
+      "image": "assets/images/vim.png",
+      "title": "Vim"
+    }
+  ]
+}
