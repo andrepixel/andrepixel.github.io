@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "image": "assets/images/determinado.png",
+      "title": "DETERMINADO",
+      "description": "Determinado em buscar os meus objetivos, não importa o custo para isso. Isso é um fator que me deixa constantemente, buscando novas habilidades que me fazem buscar o  incrível."
+    },
+    {
+      "image": "assets/images/constante.png",
+      "title": "CONSTANTE",
+      "description": "Constante em minha dedicação e esforço, estou sempre em busca de evolução. Essa perseverança me leva a adquirir novas habilidades e a perseguir a excelência em tudo o que faço."
+    },
+    {
+      "image": "assets/images/comunicativo.png",
+      "title": "COMUNICATIVO",
+      "description": "Comunicativo por natureza, valorizo a troca de ideias e o diálogo construtivo. Essa habilidade me permite colaborar de forma eficaz, construir conexões significativas e alcançar resultados impactantes em equipe."
+    },
+    {
+      "image": "assets/images/resolvedor.png",
+      "title": "RESOLVEDOR",
+      "description": "Resolvedor de problemas por essência, enfrento desafios com criatividade e foco, buscando soluções eficazes e inovadoras. Essa habilidade me permite transformar obstáculos em oportunidades de crescimento e aprendizado."
+    },
+    {
+      "image": "assets/images/compreensivo.png",
+      "title": "COMPREENSIVO",
+      "description": "Compreensivo em minhas interações, busco sempre ouvir e entender diferentes perspectivas. Essa qualidade me ajuda a construir relações empáticas, resolver conflitos de forma pacífica e colaborar de maneira harmoniosa."
+    },
+    {
+      "image": "assets/images/aberto.png",
+      "title": "ABERTO",
+      "description": "Aberto a novas tecnologias, estou sempre disposto a explorar, aprender e implementar inovações. Essa postura me permite acompanhar tendências, adaptar-me rapidamente e encontrar soluções modernas para desafios complexos."
+    },
+    {
+      "image": "assets/images/software.png",
+      "title": "SOFTWARE<br>LIVRE",
+      "description": "Software Livre representa minha valorização por liberdade, colaboração e compartilhamento de conhecimento. Acredito no poder de comunidades abertas para construir soluções tecnológicas acessíveis e impactantes, promovendo um futuro mais inclusivo e inovador."
+    },
+    {
+      "image": "assets/images/imperfeito.png",
+      "title": "IMPERFEITO",
+      "description": "Imperfeito e consciente disso, reconheço minhas limitações como uma oportunidade constante de aprendizado e crescimento. Aceitar minha humanidade me impulsiona a evoluir e a buscar sempre ser a melhor versão de mim mesmo."
+    }
+  ]
+}
