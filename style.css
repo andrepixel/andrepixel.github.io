@@ -133,7 +133,7 @@ nav a h5:hover {
 .myvalues {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows:repeat(2, 1fr);
+  grid-template-rows:repeat(2, auto);
   gap: 1rem;
 }
 
@@ -142,7 +142,6 @@ nav a h5:hover {
   flex-direction: column;
   gap: 1rem;
   text-align: justify;
-  border: 1px solid red;
   height: 22rem;
   width: 18rem;
   background: linear-gradient(#75D1F6, #447A90);
@@ -160,7 +159,10 @@ nav a h5:hover {
   font-weight: bold;
 }
 
-.content-title-image-myvalues {}
+.content-title-image-myvalues {
+  height: 6rem;
+  width: 5.5rem;
+}
 
 .content-title-text-myvalues {}
 

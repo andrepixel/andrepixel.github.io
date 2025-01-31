@@ -5,7 +5,7 @@ async function getTemplateHeader() {
 
   div.innerHTML = header;
 
-  return div.querySelector("headerTemplate").content;
+  return div.querySelector("#headerTemplate").content;
 }
 
 async function updateComponentDivHeader() {
@@ -21,17 +21,30 @@ async function getTemplateMyValues() {
 
   div.innerHTML = myvalues;
 
-  return div.querySelector("container-myvalues").content;
+  return div.querySelector("#container-myvalues");
 }
 
 async function getJsonMyValues() {
+  const template = await getTemplateMyValues();
   const response = await fetch("myvalues.json");
   const myvalues = await response.json();
-  const div = document.createElement("div");
+  const container = document.getElementById("myvalues");
 
-  div.innerHTML = myvalues;
+  myvalues["items"].forEach((element) => {
+    let component = template.content.cloneNode(true);
 
-  return div.querySelector("container-myvalues").content;
+    component.querySelector(".content-title-image-myvalues").src =
+      element.image;
+    component.querySelector(".content-title-text-myvalues").innerHTML =
+      element.title;
+    component.querySelector(".context-text-myvalues").innerHTML =
+      element.description;
+
+    container.appendChild(component);
+  });
+
+  return container;
 }
 
 updateComponentDivHeader();
+getJsonMyValues();
