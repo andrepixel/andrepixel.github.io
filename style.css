@@ -27,6 +27,10 @@ header {
   height: 70px;
 }
 
+header h4:hover {
+  font-size: 1.2rem;
+}
+
 nav {
   display: flex;
   flex-direction: row;
@@ -210,6 +214,7 @@ nav a h5:hover {
   padding-left: 5%;
   gap: 1rem;
   padding: auto;
+  margin-bottom: 2rem;
 }
 
 .content-title-technologies {
@@ -232,4 +237,25 @@ nav a h5:hover {
   color: black;
   font-size: 1.2rem;
   font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  color: white;
+  gap: 2rem;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer a:hover{
+  font-size: 1.2rem;
 }
