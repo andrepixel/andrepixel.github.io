@@ -8,7 +8,7 @@ async function getTemplateHeader() {
   return div.querySelector("#headerTemplate").content;
 }
 
-async function updateComponentDivHeader() {
+async function getComponentHeader() {
   const element = await getTemplateHeader();
 
   document.getElementById("header").appendChild(element.cloneNode(true));
@@ -76,6 +76,23 @@ async function getJsonTechnologies() {
   return container;
 }
 
-updateComponentDivHeader();
+async function getTemplateFooter() {
+  const response = await fetch("components/footer-component.html");
+  const footer = await response.text();
+  const div = document.createElement("div");
+
+  div.innerHTML = footer;
+
+  return div.querySelector("#container-footer").content;
+}
+
+async function getComponentFooter() {
+  const template = await getTemplateFooter();
+
+  document.getElementById("footer").appendChild(template.cloneNode(true));
+}
+
+getComponentHeader();
 getJsonMyValues();
 getJsonTechnologies();
+getComponentFooter();
