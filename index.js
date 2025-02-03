@@ -5,7 +5,7 @@ async function getTemplateHeader() {
 
   section.innerHTML = header;
 
-  return section.querySelector("#headerTemplate").content;
+  return section.querySelector("#container-header").content;
 }
 
 async function getComponentHeader() {
@@ -92,7 +92,56 @@ async function getComponentFooter() {
   document.getElementById("footer").appendChild(template.cloneNode(true));
 }
 
+async function getTemplateContent() {
+  const template = await fetch("/components/content-component.html");
+  const content = await template.text();
+  const a = document.createElement("a");
+
+  a.innerHTML = content;
+
+  return a.querySelector("#container-content");
+}
+
+async function getComponentContent() {
+  const template = await getTemplateContent();
+  const container = document.getElementById("content");
+
+  const path = window.location.pathname.split("/").pop();
+
+  let data = "";
+
+  if (path == "projects.html") {
+    data = await fetch("/data/projects.json");
+  }
+
+  if (path == "articles.html") {
+    data = await fetch("/data/articles.json");
+  }
+
+  if (path == "videos.html") {
+    data = await fetch("/data/videos.json");
+  }
+
+  const items = await data.json();
+
+  items["items"].forEach((element) => {
+    let component = template.content.cloneNode(true);
+
+    component.querySelector(".content-container").href = element.url;
+    component.querySelector(".content-image").src = element.image;
+    component.querySelector(".content-container-title").innerHTML =
+      element.title;
+    component.querySelector(".content-container-description").innerHTML =
+      element.description;
+
+    container.appendChild(component);
+  });
+
+  return container;
+}
+
 getComponentHeader();
 getJsonMyValues();
 getJsonTechnologies();
 getComponentFooter();
+getComponentContent();
