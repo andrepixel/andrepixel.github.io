@@ -1,51 +1,51 @@
 {
   "items": [
     {
-      "image": "assets/images/java.png",
+      "image": "assets/images/index/technologies/java.png",
       "title": "Java"
     },
     {
-      "image": "assets/images/spring.png",
+      "image": "assets/images/index/technologies/spring.png",
       "title": "Spring"
     },
     {
-      "image": "assets/images/angular.png",
+      "image": "assets/images/index/technologies/angular.png",
       "title": "Angular"
     },
     {
-      "image": "assets/images/git.png",
+      "image": "assets/images/index/technologies/git.png",
       "title": "Git"
     },
     {
-      "image": "assets/images/postgresql.png",
+      "image": "assets/images/index/technologies/postgresql.png",
       "title": "Postgresql"
     },
     {
-      "image": "assets/images/mongodb.png",
+      "image": "assets/images/index/technologies/mongodb.png",
       "title": "Mongo"
     },
     {
-      "image": "assets/images/aws.png",
+      "image": "assets/images/index/technologies/aws.png",
       "title": "AWS"
     },
     {
-      "image": "assets/images/docker.png",
+      "image": "assets/images/index/technologies/docker.png",
       "title": "Docker"
     },
     {
-      "image": "assets/images/flutter.png",
+      "image": "assets/images/index/technologies/flutter.png",
       "title": "Flutter"
     },
     {
-      "image": "assets/images/golang.png",
+      "image": "assets/images/index/technologies/golang.png",
       "title": "Golang"
     },
     {
-      "image": "assets/images/linux.png",
+      "image": "assets/images/index/technologies/linux.png",
       "title": "Linux"
     },
     {
-      "image": "assets/images/vim.png",
+      "image": "assets/images/index/technologies/vim.png",
       "title": "Vim"
     }
   ]

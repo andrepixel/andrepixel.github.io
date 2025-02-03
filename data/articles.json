@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_java-spring-springboot-activity-7207727743482998785-c4Ge?utm_source=share&utm_medium=member_desktop",
+      "image": "assets/images/articles/oracle-one.png",
+      "title": "Oracle One, uma jornada Pokémon",
+      "description": "O que a Oracle e a Alura tem em comum? Eles fazem uma tal de parceria ai chamada Oracle One. Você, quer descobrir o que é? Vem comigo nesse artigo. 😜"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_aws-certification-cloudcertification-activity-7198330808489668608-tXE8?utm_source=share&utm_medium=member_desktop",
+      "image": "assets/images/articles/primeiro-aws-certifield.png",
+      "title": "Como foi tirar minha primeira certificação, AWS Cloud Practitioner? 😬",
+      "description": "O primeiro passo para conseguir ser um Solution Architect foi dado. Nesse artigo abordo, o que achei da minha primeira certificação em Cloud Computing, a AWS Cloud Practitioner, da Amazon Web Services (AWS). Também darei dicas do que usei, que facilitaram o meu desenvolvimento sobre o assunto, então não deixe de dar uma olhada, se você curte o assunto!"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_java-quarkus-microservice-activity-7177728781162323968-7kfG?utm_source=share&utm_medium=member_desktop",
+      "image": "assets/images/articles/quarkus.png",
+      "title": "Quarkus, o SuperSONIC que não é da SEGA",
+      "description": "Você já ouviu falar no Quarkusio? É um negócio que te garanto que você ouvirá muito falar dele ainda. Que tal começar por aqui? Então, bora! 😆"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_it-cloud-aws-activity-7169693232795115520-w-DW?utm_source=share&utm_medium=member_desktop",
+      "image": "assets/images/articles/aws-restart.png",
+      "title": "AWS re/start o que é isso?",
+      "description": "AWS re/start o que é isso? O que a Amazon Web Services (AWS) e a Escola da Nuvem têm a ver com isso? Vem comigo nesse artigo, que tu vai entender. 😅"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_it-api-apidog-activity-7147934575892111361-NU-w?utm_source=share&utm_medium=member_desktop",
+      "image": "assets/images/articles/apidog.png",
+      "title": "A ferramenta que você precisava",
+      "description": "Fala galera, venho aqui trazer para vocês, o meu primeiro artigo no LinkedIn. O primeiro, de muitos(assim espero 😅) artigos de coisas aleatórias que eu achar interessante na minha jornada como dev. A primeira delas é uma ferramenta pouca conhecida, que pode lhe ser útil no futuro, em seus projetos. 🙃"
+    }
+  ]
+}

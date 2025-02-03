@@ -1,11 +1,11 @@
 async function getTemplateHeader() {
-  const response = await fetch("components/header-component.html");
+  const response = await fetch("/components/header-component.html");
   const header = await response.text();
-  const div = document.createElement("div");
+  const section = document.createElement("section");
 
-  div.innerHTML = header;
+  section.innerHTML = header;
 
-  return div.querySelector("#headerTemplate").content;
+  return section.querySelector("#headerTemplate").content;
 }
 
 async function getComponentHeader() {
@@ -15,18 +15,18 @@ async function getComponentHeader() {
 }
 
 async function getTemplateMyValues() {
-  const response = await fetch("components/myvalues-component.html");
+  const response = await fetch("/components/myvalues-component.html");
   const myvalues = await response.text();
-  const div = document.createElement("div");
+  const section = document.createElement("section");
 
-  div.innerHTML = myvalues;
+  section.innerHTML = myvalues;
 
-  return div.querySelector("#container-myvalues");
+  return section.querySelector("#container-myvalues");
 }
 
 async function getJsonMyValues() {
   const template = await getTemplateMyValues();
-  const response = await fetch("data/myvalues.json");
+  const response = await fetch("/data/myvalues.json");
   const myvalues = await response.json();
   const container = document.getElementById("myvalues");
 
@@ -47,18 +47,18 @@ async function getJsonMyValues() {
 }
 
 async function getTemplateTechnologies() {
-  const response = await fetch("components/technologies-component.html");
+  const response = await fetch("/components/technologies-component.html");
   const technologies = await response.text();
-  const div = document.createElement("div");
+  const section = document.createElement("section");
 
-  div.innerHTML = technologies;
+  section.innerHTML = technologies;
 
-  return div.querySelector("#container-technologies");
+  return section.querySelector("#container-technologies");
 }
 
 async function getJsonTechnologies() {
   const template = await getTemplateTechnologies();
-  const response = await fetch("data/technologies.json");
+  const response = await fetch("/data/technologies.json");
   const technologies = await response.json();
   const container = document.getElementById("technologies");
 
@@ -77,13 +77,13 @@ async function getJsonTechnologies() {
 }
 
 async function getTemplateFooter() {
-  const response = await fetch("components/footer-component.html");
+  const response = await fetch("/components/footer-component.html");
   const footer = await response.text();
-  const div = document.createElement("div");
+  const section = document.createElement("section");
 
-  div.innerHTML = footer;
+  section.innerHTML = footer;
 
-  return div.querySelector("#container-footer").content;
+  return section.querySelector("#container-footer").content;
 }
 
 async function getComponentFooter() {
