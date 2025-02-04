@@ -20,6 +20,7 @@ body h2 {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -138,6 +139,7 @@ nav a h5:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
+  place-items: center;
   gap: 1rem;
 }
 
@@ -182,7 +184,7 @@ nav a h5:hover {
   margin: auto;
   font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 2rem;
+  margin: 3rem auto;
 }
 
 .aws-content {
@@ -211,6 +213,7 @@ nav a h5:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
+  place-items: center;
   padding-left: 5%;
   gap: 1rem;
   padding: auto;
@@ -256,6 +259,31 @@ nav a h5:hover {
   font-weight: bold;
 }
 
-.footer a:hover{
+.footer a:hover {
   font-size: 1.2rem;
+}
+
+/* 📂 Estilos para Desktop (já criados por você) */
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.menu {
+  display: block;
+}
+
+.sidebar {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+  .content {
+  }
+
+  .footer {
+     text-align: justify;
+  }
 }
