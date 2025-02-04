@@ -280,10 +280,62 @@ nav a h5:hover {
 }
 
 @media (max-width: 768px) {
-  .content {
-  }
+  .content {}
 
   .footer {
-     text-align: justify;
+    text-align: justify;
+  }
+
+  .banner-youtube {
+    width: 20rem;
+    margin: auto;
+  }
+
+  .text-banner {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-youtube img {
+    display: none;
+  }
+
+  body h2 {
+    font-size: 1.4rem;
+  }
+
+  .myvalues {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .technologies {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .aws {
+    width: 20rem;
+    font-size: 1rem;
+  }
+
+  .aws img {
+    display: none;
+  }
+
+  .aws-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
 }
