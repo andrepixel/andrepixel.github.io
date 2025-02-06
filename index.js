@@ -1,4 +1,4 @@
-async function getTemplateHeader() {
+async function getTemplateHeaderDesktop() {
   const response = await fetch("/components/header-component.html");
   const header = await response.text();
   const section = document.createElement("section");
@@ -8,10 +8,49 @@ async function getTemplateHeader() {
   return section.querySelector("#container-header").content;
 }
 
-async function getComponentHeader() {
-  const element = await getTemplateHeader();
+async function getComponentHeaderDesktop() {
+  const element = await getTemplateHeaderDesktop();
 
-  document.getElementById("header").appendChild(element.cloneNode(true));
+  document
+    .getElementById("header-desktop")
+    .appendChild(element.cloneNode(true));
+}
+
+async function getTemplateHeaderMobile() {
+  const response = await fetch("/components/header-mobile-component.html");
+  const template = await response.text();
+  const header = document.createElement("header");
+
+  header.innerHTML = template;
+
+  return header.querySelector("#template-wrapper-header-mobile").content;
+}
+
+async function getComponentHeaderMobile() {
+  const element = await getTemplateHeaderMobile();
+
+  document.getElementById("header-mobile").appendChild(element.cloneNode(true));
+}
+
+async function getTemplateHeaderMobileSidebar() {
+  const response = await fetch(
+    "/components/header-mobile-sidebar-component.html"
+  );
+  const template = await response.text();
+
+  const header = document.createElement("header");
+  header.innerHTML = template;
+
+  return header.querySelector("#template-wrapper-header-mobile-sidebar")
+    .content;
+}
+
+async function getComponentHeaderMobileSidebar() {
+  const element = await getTemplateHeaderMobileSidebar();
+
+  document
+    .getElementById("header-mobile-sidebar")
+    .appendChild(element.cloneNode(true));
 }
 
 async function getTemplateMyValues() {
@@ -140,8 +179,54 @@ async function getComponentContent() {
   return container;
 }
 
-getComponentHeader();
-getJsonMyValues();
-getJsonTechnologies();
-getComponentFooter();
-getComponentContent();
+function onClickMenuOpenSidebar() {
+  const header = document.getElementById("header-mobile");
+
+  const sidebar = document.getElementById("header-mobile-sidebar");
+  sidebar.classList.remove("header-mobile-sidebar");
+
+  header
+    .querySelector("#template-wrapper-logo-menu")
+    .addEventListener("click", () => {
+      sidebar.querySelector("#template-header-mobile-sidebar").style.cssText = `
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    `;
+
+      header.style.display = "none";
+    });
+}
+
+function onClickMenuCloseSidebar() {
+  const header = document.getElementById("header-mobile");
+
+  const sidebar = document.getElementById("header-mobile-sidebar");
+
+  sidebar
+    .querySelector("#template-header-mobile-close")
+    .addEventListener("click", () => {
+      sidebar.querySelector("#template-header-mobile-sidebar").style.cssText = `
+        display: none;
+    `;
+
+      header.style.display = "flex";
+    });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  getJsonMyValues();
+  getJsonTechnologies();
+  getComponentFooter();
+  getComponentContent();
+  getComponentHeaderDesktop();
+  getComponentHeaderMobile();
+  getComponentHeaderMobileSidebar();
+  setTimeout(() => {
+    onClickMenuOpenSidebar();
+    onClickMenuCloseSidebar();
+  }, 100);
+});
