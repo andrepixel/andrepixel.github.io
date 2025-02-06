@@ -155,11 +155,11 @@ nav a h5:hover {
         width: 2rem;
     }
 
-    .template-wrapper-header-mobile {
+    .template-header-mobile {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
         gap: 5rem;
         padding: 0.5rem;
     }
