@@ -41,10 +41,8 @@
 
     .content-container {
         height: auto;
-        width: 23rem;
+        width: auto;
     }
 }
 
-@media (min-width: 1024px) {}
-
-@media (min-width: 1280px) {}
+@media (min-width: 769px) {}
