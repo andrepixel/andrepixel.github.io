@@ -231,7 +231,7 @@ nav a h5:hover {
     }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width:942px) {
     header {
         display: flex;
         flex-direction: row;

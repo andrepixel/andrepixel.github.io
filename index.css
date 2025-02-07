@@ -219,7 +219,7 @@
 }
 
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width:942px) {
     .technologies {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
