@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: "Inter", sans-serif;
     color: white;
@@ -230,7 +231,7 @@ nav a h5:hover {
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) {
     header {
         display: flex;
         flex-direction: row;
@@ -248,7 +249,7 @@ nav a h5:hover {
 
     .content {
         display: grid;
-        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, auto);
         place-items: center;
         gap: 1rem;
