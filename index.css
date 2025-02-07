@@ -217,3 +217,61 @@
         gap: 2rem;
     }
 }
+
+
+@media (max-width: 1024px) {
+    .technologies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        place-items: center;
+        padding-left: 5%;
+        gap: 1rem;
+        padding: auto;
+        margin-bottom: 2rem;
+    }
+
+    .aws {
+        height: 14rem;
+        width: 40rem;
+        border-radius: 10px;
+        background: linear-gradient(to right, #75D1F6, #FCC6DE, #FCE3AB);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        color: black;
+        margin: auto;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 3rem auto;
+        padding-left: 2rem;
+    }
+
+    .myvalues {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        place-items: center;
+        gap: 1rem;
+    }
+
+    .banner-youtube {
+        height: 20rem;
+        width: auto;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        background: linear-gradient(#75D1F6, #FCC6DE, #FCE3AB);
+        align-items: center;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 0 1rem;
+    }
+
+    .text-banner .chamada-youtube {
+        font-size: 1.2rem;
+    }
+}

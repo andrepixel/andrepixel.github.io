@@ -229,3 +229,29 @@ nav a h5:hover {
         font-size: 1.5rem;
     }
 }
+
+@media (max-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        width: auto;
+        height: 70px;
+        gap: 1rem;
+    }
+
+    .logo {
+        margin: 0;
+        height: 4rem;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+        grid-template-rows: repeat(2, auto);
+        place-items: center;
+        gap: 1rem;
+        margin: auto;
+    }
+}
