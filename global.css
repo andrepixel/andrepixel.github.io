@@ -102,15 +102,6 @@ nav a h5:hover {
     font-size: 1.2rem;
 }
 
-
-.header-mobile {
-    display: none;
-}
-
-.header-mobile-sidebar {
-    display: none;
-}
-
 @media (max-width: 768px) {
     .footer {
         text-align: justify;

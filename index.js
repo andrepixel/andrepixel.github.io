@@ -250,6 +250,25 @@ function onClickMenuCloseSidebar() {
   observer.observe(document.body, { childList: true, subtree: true });
 }
 
+function checkWindowSize() {
+  const element = document.getElementById("header-mobile");
+  const element2 = document.getElementById("header-mobile-sidebar");
+
+  if (window.innerWidth > 768) {
+      element.style.display = "none";
+      element2.style.display = "none";
+  } else {
+      element.style.display = "block";
+      element2.style.display = "block";
+  }
+}
+
+// Verifica no carregamento da página
+window.addEventListener("load", checkWindowSize);
+
+// Verifica sempre que a janela for redimensionada
+window.addEventListener("resize", checkWindowSize);
+
 function loadComponents() {
   getJsonMyValues();
   getJsonTechnologies();
@@ -260,6 +279,7 @@ function loadComponents() {
   getComponentHeaderMobileSidebar();
   onClickMenuOpenSidebar();
   onClickMenuCloseSidebar();
+  checkWindowSize();
 }
 
 document.addEventListener("DOMContentLoaded", loadComponents);
