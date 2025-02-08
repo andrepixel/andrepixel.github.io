@@ -263,6 +263,19 @@ function checkWindowSize() {
   }
 }
 
+function onChangemyphotoWhenMouseWillInButton() {
+  const button = document.getElementById("button-youtube");
+  const myphoto = document.getElementById("myphoto");
+
+  button.addEventListener("mouseenter", () => {
+    myphoto.src = "assets/images/index/myphoto2.webp";
+  });
+  
+  button.addEventListener("mouseleave", () => {
+    myphoto.src = "assets/images/index/myphoto.webp";
+  });
+}
+
 // Verifica no carregamento da página
 window.addEventListener("load", checkWindowSize);
 
@@ -279,6 +292,7 @@ function loadComponents() {
   getComponentHeaderMobileSidebar();
   onClickMenuOpenSidebar();
   onClickMenuCloseSidebar();
+  onChangemyphotoWhenMouseWillInButton();
   checkWindowSize();
 }
 
