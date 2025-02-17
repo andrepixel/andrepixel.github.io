@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    background: linear-gradient(#75D1F6, #FCC6DE, #FCE3AB);
+    background: linear-gradient(#75D1F6, #fcc6c6, #FCE3AB);
     align-items: center;
     font-weight: bold;
     border-radius: 20px;
@@ -92,7 +92,7 @@
     height: 14rem;
     width: 60rem;
     border-radius: 10px;
-    background: linear-gradient(to right, #75D1F6, #FCC6DE, #FCE3AB);
+    background: linear-gradient(to right, #75D1F6, #fcc6c6, #FCE3AB);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -132,7 +132,6 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
     place-items: center;
-    padding-left: 5%;
     gap: 1rem;
     padding: auto;
     margin-bottom: 2rem;
@@ -141,13 +140,13 @@
 .content-title-technologies {
     height: 4rem;
     width: 13rem;
-    background: linear-gradient(to right, #FCC6DE, #FCE3AB);
+    background: linear-gradient(to right, #fcc6c6, #FCE3AB);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
-    border-radius: 20px;
+    gap: 1rem;
+    border-radius: 10px;
 }
 
 .content-title-image-technologies {
@@ -235,7 +234,7 @@
         height: 14rem;
         width: 40rem;
         border-radius: 10px;
-        background: linear-gradient(to right, #75D1F6, #FCC6DE, #FCE3AB);
+        background: linear-gradient(to right, #75D1F6, #fcc6c6, #FCE3AB);
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -264,7 +263,7 @@
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-        background: linear-gradient(#75D1F6, #FCC6DE, #FCE3AB);
+        background: linear-gradient(#75D1F6, #fcc6c6, #FCE3AB);
         align-items: center;
         font-weight: bold;
         border-radius: 20px;

@@ -1,16 +1,32 @@
 {
   "items": [
     {
-      "image": "assets/images/index/technologies/java.png",
-      "title": "Java"
+      "image": "assets/images/index/technologies/react.png",
+      "title": "React"
     },
     {
-      "image": "assets/images/index/technologies/spring.png",
-      "title": "Spring"
+      "image": "assets/images/index/technologies/next.js.png",
+      "title": "Next.js"
     },
     {
-      "image": "assets/images/index/technologies/angular.png",
-      "title": "Angular"
+      "image": "assets/images/index/technologies/tailwind CSS.png",
+      "title": "Tailwind CSS"
+    },
+    {
+      "image": "assets/images/index/technologies/node.js.png",
+      "title": "Node.js"
+    },
+    {
+      "image": "assets/images/index/technologies/nest.js.png",
+      "title": "Nest.js"
+    },
+    {
+      "image": "assets/images/index/technologies/javaScript.png",
+      "title": "JavaScript"
+    },
+    {
+      "image": "assets/images/index/technologies/typeScript.png",
+      "title": "TypeScript"
     },
     {
       "image": "assets/images/index/technologies/git.png",
