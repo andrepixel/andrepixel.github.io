@@ -1,16 +1,22 @@
 {
   "items": [
     {
-      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_java-spring-springboot-activity-7207727743482998785-c4Ge?utm_source=share&utm_medium=member_desktop",
-      "image": "/assets/images/articles/oracle-one.png",
-      "title": "Oracle One, uma jornada Pokémon",
-      "description": "O que a Oracle e a Alura tem em comum? Eles fazem uma tal de parceria ai chamada Oracle One. Você, quer descobrir o que é? Vem comigo nesse artigo. 😜"
+      "url": "#",
+      "image": "/assets/images/projects/embreve.webp",
+      "title": "Em breve",
+      "description": "Em breve"
     },
     {
-      "url": "",
-      "image": "",
-      "title": "",
-      "description": ""
+      "url": "https://timoteoemartins.com.br/",
+      "image": "/assets/images/projects/temlogo.webp",
+      "title": "timoteoemartins.com.br",
+      "description": "Site criado para o cliente T&M Ferramentas, com o intuito de divulgar seus produtos e serviços."
+    },
+    {
+      "url": "https://andrepixel.github.io/",
+      "image": "/assets/images/projects/portifolio.webp",
+      "title": "Meu portifólio",
+      "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades."
     }
   ]
 }

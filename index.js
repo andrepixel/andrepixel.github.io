@@ -151,6 +151,12 @@ async function getComponentContent() {
 
   if (path == "projects.html") {
     data = await fetch("/data/projects.json");
+
+    setTimeout(() => {
+      for (let index = 0; index < container.children.length; index++) {
+        container.children.item(index).style.height = "25rem";
+      }
+    }, 1);
   }
 
   if (path == "articles.html") {
@@ -159,6 +165,12 @@ async function getComponentContent() {
 
   if (path == "videos.html") {
     data = await fetch("/data/videos.json");
+
+    setTimeout(() => {
+      for (let index = 0; index < container.children.length; index++) {
+        container.children.item(index).style.height = "25rem";
+      }
+    }, 1);
   }
 
   const items = await data.json();
@@ -255,11 +267,11 @@ function checkWindowSize() {
   const element2 = document.getElementById("header-mobile-sidebar");
 
   if (window.innerWidth > 768) {
-      element.style.display = "none";
-      element2.style.display = "none";
+    element.style.display = "none";
+    element2.style.display = "none";
   } else {
-      element.style.display = "block";
-      element2.style.display = "block";
+    element.style.display = "block";
+    element2.style.display = "block";
   }
 }
 
@@ -270,7 +282,7 @@ function onChangemyphotoWhenMouseWillInButton() {
   button.addEventListener("mouseenter", () => {
     myphoto.src = "assets/images/index/myphoto2.webp";
   });
-  
+
   button.addEventListener("mouseleave", () => {
     myphoto.src = "assets/images/index/myphoto.webp";
   });
