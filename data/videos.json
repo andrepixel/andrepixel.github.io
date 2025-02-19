@@ -1,16 +1,16 @@
 {
   "items": [
     {
-      "url": "https://www.linkedin.com/posts/andrevalverdebrazil_java-spring-springboot-activity-7207727743482998785-c4Ge?utm_source=share&utm_medium=member_desktop",
-      "image": "/assets/images/articles/oracle-one.png",
-      "title": "Oracle One, uma jornada Pokémon",
-      "description": "O que a Oracle e a Alura tem em comum? Eles fazem uma tal de parceria ai chamada Oracle One. Você, quer descobrir o que é? Vem comigo nesse artigo. 😜"
+      "url": "#",
+      "image": "/assets/images/projects/embreve.webp",
+      "title": "Em breve",
+      "description": "Em breve"
     },
     {
-      "url": "",
-      "image": "",
-      "title": "",
-      "description": ""
+      "url": "https://youtu.be/qmvzueH5ysU",
+      "image": "/assets/images/videos/paraquemeolinux.webp",
+      "title": "Para quem é o Linux?",
+      "description": "Neste vídeo, vamos explorar as características do Linux e como ele se tornou uma escolha popular entre os desenvolvedores e entusiastas da tecnologia."
     }
   ]
 }
