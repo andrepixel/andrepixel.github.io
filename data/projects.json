@@ -7,16 +7,16 @@
       "description": "Em breve"
     },
     {
-      "url": "https://timoteoemartins.com.br/",
-      "image": "/assets/images/projects/temlogo.webp",
-      "title": "timoteoemartins.com.br",
-      "description": "Site criado para o cliente T&M Ferramentas, com o intuito de divulgar seus produtos e serviços."
-    },
-    {
       "url": "https://andrepixel.github.io/",
       "image": "/assets/images/projects/portifolio.webp",
       "title": "Meu portifólio",
       "description": "Meu portfólio pessoal, onde apresento meus projetos e habilidades."
+    },
+    {
+      "url": "https://timoteoemartins.com.br/",
+      "image": "/assets/images/projects/temlogo.webp",
+      "title": "timoteoemartins.com.br",
+      "description": "Site criado para o cliente T&M Ferramentas, com o intuito de divulgar seus produtos e serviços."
     }
   ]
 }
