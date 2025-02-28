@@ -1,4 +1,6 @@
-![](https://github.com/andrepixel/andrepixel.github.io/blob/main/Banner_github_project.webp)
+<center>
+  ![](https://github.com/andrepixel/andrepixel.github.io/blob/main/Banner_github_project.webp)
+</center>
 
 ## Seja bem vindo ao meu portifólio
 
