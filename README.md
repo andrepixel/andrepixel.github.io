@@ -1,6 +1,6 @@
-<center>
-  ![](https://github.com/andrepixel/andrepixel.github.io/blob/main/Banner_github_project.webp)
-</center>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/andrepixel/andrepixel.github.io/blob/main/Banner_github_project.webp">
+</p>
 
 ## Seja bem vindo ao meu portifólio
 
